@@ -12,11 +12,11 @@ public class AimTrainerSupreme {
     public static void main(String[] args) {
         float targetX = (float)(Math.random() * 300);
         float targetY = (float)(Math.random() * 300);
-        float aimOffsetX = 0.5f;
-        float aimOffsetY = 0.7f;
-        float recoilFactor = 0.3f;
-        float sensitivity = 1.2f;
-        float headshotRange = 0.8f;
+        float aimOffsetX = 0.1f;
+        float aimOffsetY = 0.5f;
+        float recoilFactor = 0.1f;
+        float sensitivity = 1.5f;
+        float headshotRange = 3.0f;
         float bulletSpread = 0.2f;
         float aimSpeed = 0.9f;
         float windEffect = 0.1f;
@@ -26,9 +26,9 @@ public class AimTrainerSupreme {
         float targetSize = 0.6f;
         float crosshairAdjust = 0.4f;
         float aimSway = 0.07f;
-        float weaponRecoilAK = 0.35f;
-        float weaponRecoilM4 = 0.25f;
-        float weaponRecoilMP5 = 0.2f;
+        float weaponRecoilM1887 = 0.1;
+        float weaponRecoilMP40 = 0.1;
+        float weaponRecoilUMP = 0.1f;
         float distanceToTarget = 50.0f;
         float bulletVelocity = 300.0f;
         float scopeFov = 0.9f;
