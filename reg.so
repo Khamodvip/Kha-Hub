@@ -1,0 +1,30 @@
+function () {
+            function searchAndReplace(searchValue, replaceValue, type) {
+                norecoil.clearResults();
+                norecoil.searchNumber(searchValue, type, '0x100000000', '0x160000000');
+                var results = auto.getResults(h5gg.getResultsCount());
+                for (var i = 0; i < results.length; i++) {
+                    auto.setValue(results[i].address, replaceValue.toString(), type)
+                }
+            }
+            searchAndReplace(1016018816, 180, 'I32')
+            
+            });
+
+        }
+function so98() {
+
+
+            function searchAndReplace(searchValue, replaceValue, type) {
+                Aimhead.clearResults();
+                Aimheaf.searchNumber(searchValue, type, '0x100000000', '0x160000000');
+                var results = aimheaf.getResults(aimhead.getResultsCount());
+                for (var i = 0; i < results.length && i < 10; i++) {
+                    auto.setValue(results[i].address, replaceValue.toString(), type);
+                }
+            }
+            searchAndReplace(3145840, 49, 'I32');
+            
+            });
+        }
+        
